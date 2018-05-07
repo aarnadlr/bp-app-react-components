@@ -1,3 +1,7 @@
+/* @import url('https://fonts.googleapis.com/css?family=Libre+Franklin'); */
+
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin:400,600,700');
+
 :root{
     --input-color: lightgray;
     --purple-1: #5e2ca5;
@@ -5,6 +9,12 @@
 
 *{
     box-sizing:border-box;
+    font-family: 'Libre Franklin', sans-serif;
+
+}
+
+#registerForm h1{
+    /* letter-spacing: .02rem; */
 }
 
 #registerForm input{
@@ -31,8 +41,11 @@
 }
 
 #registerForm label{
+    color: gray;
+    text-transform: uppercase;
     display: block;
     margin-bottom: .5rem;
+    font-size: 14px;
 }
 
 #registerForm div#buttonDiv{
@@ -52,12 +65,18 @@
     background: transparent;
     border-radius: .3rem;
     transition: all .3s ease;
+    letter-spacing: .05rem;
+    font-size: 14px;
+    font-family: 'Libre Franklin', sans-serif;
+    /* font-weight: 400; */
+    color: gray;
 }
 
 #registerForm div#buttonDiv button:hover{
     background: var(--purple-1);
     color: white;
     transform: scale(1.07);
+    
 }
 
 #registerForm div#buttonDiv button:active{

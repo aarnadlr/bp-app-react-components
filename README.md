@@ -1,4 +1,4 @@
-# RegisterForm Component.
+# RegisterForm Component
 
 
 Each input is a 'controlled component': Each input receives its value declaratively from state.

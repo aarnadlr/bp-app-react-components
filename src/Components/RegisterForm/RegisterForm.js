@@ -18,8 +18,15 @@ class RegisterForm extends Component {
   }
   
 
+  // onSubmit = e =>{
+  //   e.preventDefault();
+  //   // Print the user input to the console:
+  //   console.log(this.state);
+  // }
+
+  
   render = () => (
-    <Div className='bg-white ma4 pa4 br3'>
+    <Div className='bg-white mh4 mv5 pa4 br3'>
       <form id='registerForm' action="">
 
         <h1>Register</h1>
@@ -61,7 +68,8 @@ class RegisterForm extends Component {
         <br/>
         
         <div id="buttonDiv">
-          <button onClick='' >submit</button>
+          {/* <button onClick={e => this.onSubmit(e)}>submit</button> */}
+          <button>submit</button>
         </div>
 
       </form>
