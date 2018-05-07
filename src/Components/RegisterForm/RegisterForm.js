@@ -16,46 +16,53 @@ class RegisterForm extends Component {
     mobile: '',
     zipCode: '',
   }
+  
 
   render = () => (
-    <Div className='bg-white ma5 pa5 br3'>
+    <Div className='bg-white ma4 pa4 br3'>
       <form id='registerForm' action="">
 
         <h1>Register</h1>
 
+        <label>First name</label>
         <input
           className=''
-          placeholder="First Name"
+          placeholder="Snoop"
           value={this.state.firstName}
           onChange={e => this.setState({firstName: e.target.value})}
         />
         <br/>
 
+        <label>Last name</label>
         <input
           className=''
-          placeholder="Last Name"
+          placeholder="Dogg"
           value={this.state.lastName}
           onChange={e => this.setState({lastName: e.target.value})}
         />
         <br/>
 
+        <label>Mobile</label>
         <input
           className=''
-          placeholder="Mobile number"
+          placeholder="(xxx) xxx-xxxx"
           value={this.state.mobile}
           onChange={e => this.setState({mobile: e.target.value})}
         />
         <br/>
 
+        <label>Zip code</label>
         <input
           className=''
-          placeholder="Zip code"
+          placeholder="xxxxx"
           value={this.state.zipCode}
           onChange={e => this.setState({zipCode: e.target.value})}
           />
         <br/>
         
-        <button onClick='' >submit</button>
+        <div id="buttonDiv">
+          <button onClick='' >submit</button>
+        </div>
 
       </form>
     </Div>
