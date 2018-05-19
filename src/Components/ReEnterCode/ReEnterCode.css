@@ -1,0 +1,52 @@
+
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin:400,600,700');
+
+:root{
+    --input-color: lightgray;
+    --purple-1: #5e2ca5;
+    --brightPurple: rgb(156, 50, 255);
+    --brightPurpleDark: rgb(132, 0, 255);
+    --grayText: rgb(116, 116, 116);
+}
+
+*{
+    box-sizing:border-box;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+body{
+    font-size:16px;
+}
+
+.ReEnterCode{
+    text-align: center;
+}
+
+.ReEnterCode h3{
+    color: var(--brightPurple);
+    margin-top: 3rem;
+    /* text-align: center; */
+}
+.ReEnterCode__whiteCont p{
+    line-height: 1.5;
+    color: var(--grayText);
+    font-weight: 600;
+    font-size: .9rem;
+    margin-bottom: 3rem;
+}
+.numInputs{
+    margin-bottom: 2rem;
+}
+.numInputs input{
+    width:2rem;
+    /* padding-left: 1rem; */
+    height:2.5rem;
+    margin-right: .4rem;
+    border: 0;
+    text-align: center;
+    font-size: 2rem;
+    color: var(--brightPurple);
+  /* outline: 0; */
+  /* background: rgb(243, 243, 243); */
+  border-bottom: 2px solid rgb(190, 190, 190);
+}
