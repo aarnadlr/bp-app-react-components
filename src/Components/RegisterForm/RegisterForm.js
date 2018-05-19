@@ -25,18 +25,7 @@ class RegisterForm extends Component {
       zipCode: '',
     }
   }
-  
-  // onSubmit = e =>{
-  //   e.preventDefault();
-  //   // Print the user input to the console:
-  //   console.log(this.state);
-      //  this.setState({
-      //   firstName: '',
-      //   lastName: '',
-      //   mobile: '',
-      //   zipCode: '',
-      //  })
-  // }
+
 
   render = () => (
     <WhiteContainer className='bg-white mh4 mv5 pa4 br3'>

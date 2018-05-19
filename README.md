@@ -9,6 +9,8 @@
 
 • SignIn
 
+• KeepYourAccSafe
+
 
 ## Font / Typeface Info
 

@@ -1,0 +1,69 @@
+
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin:400,600,700');
+
+:root{
+    --input-color: lightgray;
+    --purple-1: #5e2ca5;
+    --brightPurple: rgb(156, 50, 255);
+    --brightPurpleDark: rgb(132, 0, 255);
+    --grayText: rgb(116, 116, 116);
+}
+
+*{
+    box-sizing:border-box;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+body{
+    font-size:16px;
+}
+
+.KeepYourAccSafe{
+    text-align: center;
+}
+
+.KeepYourAccSafe h3{
+    color: var(--brightPurple);
+    margin-top: 3rem;
+    /* text-align: center; */
+}
+.KeepYourAccSafe__whiteCont > p{
+    line-height: 1.5;
+    color: var(--grayText);
+    
+    font-weight: 600;
+}
+
+.KeepYourAccSafe__whiteCont > p:nth-child(4){
+    margin-bottom: 1rem;
+}
+
+/* BUTTON */
+.KeepYourAccSafe div#buttonDiv{
+    text-align: center;
+    text-transform: uppercase;
+    padding: .5rem 1rem;
+    margin-bottom: 1rem;
+}
+.KeepYourAccSafe__whiteCont button{
+    margin-top: .7rem;
+    text-transform: uppercase;
+    padding: .5rem 2.5rem;
+    background: var(--brightPurple) ;
+    border-radius: .3rem;
+    transition: all .3s ease;
+    letter-spacing: .05rem;
+    font-size: 14px;
+    font-family: 'Libre Franklin', sans-serif;
+    color: white;
+    /* margin-bottom: 1rem; */
+}
+
+.KeepYourAccSafe div#buttonDiv button:hover{
+    background: var(--brightPurpleDark);
+    transform: scale(1.07);
+}
+
+.KeepYourAccSafe div#buttonDiv button:active{
+    transform: scale(.95);
+}

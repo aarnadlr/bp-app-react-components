@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import './App.css';
 // import RegisterForm from './Components/RegisterForm';
 // import RegisterFormWSignIn from './Components/RegisterFormWSignIn';
-import SignIn from './Components/SignIn';
+// import SignIn from './Components/SignIn';
+import KeepYourAccSafe from './Components/KeepYourAccSafe';
 import '../node_modules/tachyons/css/tachyons.min.css';
 
 class App extends Component {
@@ -11,7 +12,9 @@ class App extends Component {
       <div className="">
         {/* <RegisterForm/> */}
         {/* <RegisterFormWSignIn/> */}
-        <SignIn/>
+        {/* <SignIn/> */}
+        <KeepYourAccSafe/>
+        
       </div>
     );
   }
