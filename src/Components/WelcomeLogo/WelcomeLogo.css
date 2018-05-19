@@ -1,0 +1,22 @@
+
+.cls-1{
+    fill:#fff;
+}
+
+.WelcomeLogo{
+    color: white;
+    height: 100vh;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+
+}
+.WelcomeLogo svg{
+}
+.WelcomeLogo h1{
+    font-size: 1.3rem;
+    line-height: 1;
+}

@@ -13,6 +13,8 @@
 
 • ReEnterCode
 
+• WelcomeLogo
+
 
 ## Font / Typeface Info
 

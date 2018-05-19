@@ -4,7 +4,8 @@ import './App.css';
 // import RegisterFormWSignIn from './Components/RegisterFormWSignIn';
 // import SignIn from './Components/SignIn';
 // import KeepYourAccSafe from './Components/KeepYourAccSafe';
-import ReEnterCode from './Components/ReEnterCode';
+// import ReEnterCode from './Components/ReEnterCode';
+import WelcomeLogo from './Components/WelcomeLogo';
 import '../node_modules/tachyons/css/tachyons.min.css';
 
 class App extends Component {
@@ -15,7 +16,8 @@ class App extends Component {
         {/* <RegisterFormWSignIn/> */}
         {/* <SignIn/> */}
         {/* <KeepYourAccSafe/> */}
-        <ReEnterCode/>
+        {/* <ReEnterCode/> */}
+        <WelcomeLogo/>
         
       </div>
     );
