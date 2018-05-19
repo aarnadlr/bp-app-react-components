@@ -1,0 +1,87 @@
+/* @import url('https://fonts.googleapis.com/css?family=Libre+Franklin'); */
+
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin:400,600,700');
+
+:root{
+    --input-color: lightgray;
+    --purple-1: #5e2ca5;
+}
+
+*{
+    box-sizing:border-box;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+body{
+    font-size:16px;
+}
+    
+#registerForm h1{
+    /* font-size: 1.5rem; */
+    /* letter-spacing: .02rem; */
+}
+
+#registerForm input{
+    display: block;
+    margin-bottom: .7rem;
+    width:95%;
+    width:100%;
+    padding: .4rem;
+    border: 2px solid lightgray;
+    border-radius: .3rem;
+}
+
+
+/* PLACEHOLDER PREFIXES: */
+#registerForm input::placeholder { /* IE 10+ */
+    font-size:1rem;
+    color: var(--input-color);}
+#registerForm input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: var(--input-color);}
+#registerForm input::-moz-placeholder { /* Firefox 19+ */
+    color: var(--input-color);}
+#registerForm input:-ms-input-placeholder { /* IE 10+ */
+    color: var(--input-color);}
+
+
+#registerForm label{
+    color: gray;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: .5rem;
+    font-size: 14px;
+}
+
+#registerForm div#buttonDiv{
+    /* display: block; */
+    text-align: center;
+    /* margin: 0 auto; */
+    text-transform: uppercase;
+    padding: .5rem 1rem;
+    
+}
+#registerForm div#buttonDiv button{
+    /* display: block; */
+    /* text-align: center; */
+    /* margin: 0 auto; */
+    text-transform: uppercase;
+    padding: .5rem 2.5rem;
+    background: transparent;
+    border-radius: .3rem;
+    transition: all .3s ease;
+    letter-spacing: .05rem;
+    font-size: 14px;
+    font-family: 'Libre Franklin', sans-serif;
+    /* font-weight: 400; */
+    color: gray;
+}
+
+#registerForm div#buttonDiv button:hover{
+    background: var(--purple-1);
+    color: white;
+    transform: scale(1.07);
+}
+
+#registerForm div#buttonDiv button:active{
+    transform: scale(.95);
+}
