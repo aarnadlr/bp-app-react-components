@@ -1,0 +1,52 @@
+
+.cls-1{
+    fill:#fff;
+}
+
+.WelcomeLogo2{
+    color: white;
+    height: 100vh;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+
+}
+.WelcomeLogo2 svg{
+}
+.WelcomeLogo2 h1{
+    font-size: 1.1rem;
+    line-height: 1;
+    position: relative;
+    bottom: 24px;
+    left:17px;
+}
+/* 
+.WelcomeLogo2::before{
+    content: '';
+    width: 150px;
+    height:1px;
+    background: #fff;
+    transform: rotate(90deg);
+    position: relative;
+    right:170px;
+    bottom: 150px;
+
+}
+.WelcomeLogo2::after{
+    content: '';
+    width: 70px;
+    height:4px;
+    background: #fff;
+    position: relative;
+top: 50px;
+right:44px;
+}
+
+.bottomBorder{
+    background: blue;
+    width:100%;
+    height: 50px;
+} */

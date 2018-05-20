@@ -5,7 +5,8 @@ import './App.css';
 // import SignIn from './Components/SignIn';
 // import KeepYourAccSafe from './Components/KeepYourAccSafe';
 // import ReEnterCode from './Components/ReEnterCode';
-import WelcomeLogo from './Components/WelcomeLogo';
+// import WelcomeLogo from './Components/WelcomeLogo';
+import WelcomeLogo2 from './Components/WelcomeLogo2';
 import '../node_modules/tachyons/css/tachyons.min.css';
 
 class App extends Component {
@@ -17,7 +18,8 @@ class App extends Component {
         {/* <SignIn/> */}
         {/* <KeepYourAccSafe/> */}
         {/* <ReEnterCode/> */}
-        <WelcomeLogo/>
+        {/* <WelcomeLogo/> */}
+        <WelcomeLogo2/>
         
       </div>
     );
